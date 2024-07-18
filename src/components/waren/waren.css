@@ -1,0 +1,13 @@
+.waren-container {
+  width: 70%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin: 50px auto;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  align-items: center;
+}

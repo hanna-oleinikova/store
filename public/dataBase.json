@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "Blumenstraus 1",
+    "prise": 18.15,
+    "photo": "blumen-bilder/blumenstrauss/blumenstrauss_1.jpg",
+    "category": "blumenstrauss"
+  },
+  {
+    "id": 2,
+    "name": "Blumenstraus 2",
+    "prise": 13.75,
+    "photo": "blumen-bilder/blumenstrauss/blumenstrauss_2.jpg",
+    "category": "blumenstrauss"
+  },
+  {
+    "id": 3,
+    "name": "Blumenstraus 3",
+    "prise": 22.3,
+    "photo": "blumen-bilder/blumenstrauss/blumenstrauss_3.jpg",
+    "category": "blumenstrauss"
+  },
+  {
+    "id": 4,
+    "name": "Blumenstraus 4",
+    "prise": 15.25,
+    "photo": "blumen-bilder/blumenstrauss/blumenstrauss_4.jpg",
+    "category": "blumenstrauss"
+  },
+  {
+    "id": 5,
+    "name": "Blumenstraus 5",
+    "prise": 22.85,
+    "photo": "blumen-bilder/blumenstrauss/blumenstrauss_5.jpg",
+    "category": "blumenstrauss"
+  },
+  {
+    "id": 6,
+    "name": "Blumenstraus 6",
+    "prise": 14.75,
+    "photo": "blumen-bilder/blumenstrauss/blumenstrauss_6.jpg",
+    "category": "blumenstrauss"
+  },
+  {
+    "id": 7,
+    "name": "Blumenstraus 7",
+    "prise": 19.0,
+    "photo": "blumen-bilder/blumenstrauss/blumenstrauss_7.jpg",
+    "category": "blumenstrauss"
+  },
+  {
+    "id": 8,
+    "name": "Blumenstraus 8",
+    "prise": 26.5,
+    "photo": "blumen-bilder/blumenstrauss/blumenstrauss_8.jpg",
+    "category": "blumenstrauss"
+  },
+  {
+    "id": 9,
+    "name": "Blumenstraus 9",
+    "prise": 30.2,
+    "photo": "blumen-bilder/blumenstrauss/blumenstrauss_9.jpg",
+    "category": "blumenstrauss"
+  },
+  {
+    "id": 10,
+    "name": "Blumenstraus 10",
+    "prise": 18.5,
+    "photo": "blumen-bilder/blumenstrauss/blumenstrauss_10.jpg",
+    "category": "blumenstrauss"
+  },
+  {
+    "id": 11,
+    "name": "Vase 1",
+    "prise": 40.5,
+    "photo": "blumen-bilder/vase/vase_1.jpg",
+    "category": "vase"
+  },
+  {
+    "id": 12,
+    "name": "Vase 2",
+    "prise": 40.5,
+    "photo": "blumen-bilder/vase/vase_2.jpg",
+    "category": "vase"
+  },
+  {
+    "id": 13,
+    "name": "Vase 3",
+    "prise": 38.2,
+    "photo": "blumen-bilder/vase/vase_3.jpg",
+    "category": "vase"
+  },
+  {
+    "id": 14,
+    "name": "Vase 4",
+    "prise": 50.0,
+    "photo": "blumen-bilder/vase/vase_4.jpg",
+    "category": "vase"
+  },
+  {
+    "id": 15,
+    "name": "Vase 5",
+    "prise": 34.4,
+    "photo": "blumen-bilder/vase/vase_5.jpg",
+    "category": "vase"
+  },
+  {
+    "id": 16,
+    "name": "Vase 6",
+    "prise": 42.8,
+    "photo": "blumen-bilder/vase/vase_6.jpg",
+    "category": "vase"
+  },
+  {
+    "id": 17,
+    "name": "Vase 7",
+    "prise": 29.2,
+    "photo": "blumen-bilder/vase/vase_7.jpg",
+    "category": "vase"
+  },
+  {
+    "id": 18,
+    "name": "Vase 8",
+    "prise": 36.15,
+    "photo": "blumen-bilder/vase/vase_8.jpg",
+    "category": "vase"
+  },
+  {
+    "id": 19,
+    "name": "Vase 9",
+    "prise": 45.3,
+    "photo": "blumen-bilder/vase/vase_9.jpg",
+    "category": "vase"
+  },
+  {
+    "id": 20,
+    "name": "Vase 10",
+    "prise": 39.0,
+    "photo": "blumen-bilder/vase/vase_10.jpg",
+    "category": "vase"
+  },
+  {
+    "id": 21,
+    "name": "Tulpe 1",
+    "prise": 3.5,
+    "photo": "blumen-bilder/tulpe/tulpe_1.jpg",
+    "category": "tulpe"
+  },
+  {
+    "id": 22,
+    "name": "Tulpe 2",
+    "prise": 3.0,
+    "photo": "blumen-bilder/tulpe/tulpe_2.jpg",
+    "category": "tulpe"
+  },
+  {
+    "id": 23,
+    "name": "Tulpe 3",
+    "prise": 2.8,
+    "photo": "blumen-bilder/tulpe/tulpe_3.jpg",
+    "category": "tulpe"
+  },
+  {
+    "id": 24,
+    "name": "Tulpe 4",
+    "prise": 3.2,
+    "photo": "blumen-bilder/tulpe/tulpe_4.jpg",
+    "category": "tulpe"
+  },
+  {
+    "id": 25,
+    "name": "Tulpe 5",
+    "prise": 3.1,
+    "photo": "blumen-bilder/tulpe/tulpe_5.jpg",
+    "category": "tulpe"
+  },
+  {
+    "id": 26,
+    "name": "Tulpe 6",
+    "prise": 3.3,
+    "photo": "blumen-bilder/tulpe/tulpe_6.jpg",
+    "category": "tulpe"
+  },
+  {
+    "id": 27,
+    "name": "Tulpe 7",
+    "prise": 2.6,
+    "photo": "blumen-bilder/tulpe/tulpe_7.jpg",
+    "category": "tulpe"
+  },
+  {
+    "id": 28,
+    "name": "Tulpe 8",
+    "prise": 3.0,
+    "photo": "blumen-bilder/tulpe/tulpe_8.jpg",
+    "category": "tulpe"
+  },
+  {
+    "id": 29,
+    "name": "Tulpe 9",
+    "prise": 3.15,
+    "photo": "blumen-bilder/tulpe/tulpe_9.jpg",
+    "category": "tulpe"
+  },
+  {
+    "id": 30,
+    "name": "Tulpe 10",
+    "prise": 2.3,
+    "photo": "blumen-bilder/tulpe/tulpe_10.jpg",
+    "category": "tulpe"
+  },
+  {
+    "id": 31,
+    "name": "Blumentopf 1",
+    "prise": 25,
+    "photo": "blumen-bilder/blumentopf/blumentopf_1.jpg",
+    "category": "blumentopf"
+  },
+  {
+    "id": 32,
+    "name": "Blumentopf 2",
+    "prise": 28,
+    "photo": "blumen-bilder/blumentopf/blumentopf_2.jpg",
+    "category": "blumentopf"
+  },
+  {
+    "id": 33,
+    "name": "Blumentopf 3",
+    "prise": 31,
+    "photo": "blumen-bilder/blumentopf/blumentopf_3.jpg",
+    "category": "blumentopf"
+  },
+  {
+    "id": 34,
+    "name": "Blumentopf 4",
+    "prise": 43,
+    "photo": "blumen-bilder/blumentopf/blumentopf_4.jpg",
+    "category": "blumentopf"
+  },
+  {
+    "id": 35,
+    "name": "Blumentopf 5",
+    "prise": 37,
+    "photo": "blumen-bilder/blumentopf/blumentopf_5.jpg",
+    "category": "blumentopf"
+  },
+  {
+    "id": 36,
+    "name": "Blumentopf 6",
+    "prise": 27,
+    "photo": "blumen-bilder/blumentopf/blumentopf_6.jpg",
+    "category": "blumentopf"
+  },
+  {
+    "id": 37,
+    "name": "Blumentopf 7",
+    "prise": 33,
+    "photo": "blumen-bilder/blumentopf/blumentopf_7.jpg",
+    "category": "blumentopf"
+  },
+  {
+    "id": 38,
+    "name": "Blumentopf 8",
+    "prise": 29,
+    "photo": "blumen-bilder/blumentopf/blumentopf_8.jpg",
+    "category": "blumentopf"
+  },
+  {
+    "id": 39,
+    "name": "Blumentopf 9",
+    "prise": 21,
+    "photo": "blumen-bilder/blumentopf/blumentopf_9.jpg",
+    "category": "blumentopf"
+  },
+  {
+    "id": 40,
+    "name": "Blumentopf 10",
+    "prise": 29,
+    "photo": "blumen-bilder/blumentopf/blumentopf_10.jpg",
+    "category": "blumentopf"
+  }
+]
