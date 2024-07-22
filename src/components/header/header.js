@@ -1,7 +1,9 @@
 import './header.css'
 
-const Header = ({ selectedCategory, onCategoryChange }) => {
+const Header = ({ selectedCategory, onCategoryChange, onWindowChange }) => {
   const categories = ['alle', 'blumenstrauss', 'vase', 'blumentopf', 'tulpe']
+  const rightMenuUp = ['über uns', 'kontakt', 'favoriten']
+  const rightMenuDown = ['korb', 'registrieren', 'anmelden']
 
   return (
     <div className="header-container">
@@ -19,14 +21,19 @@ const Header = ({ selectedCategory, onCategoryChange }) => {
       <img src="header-logo.svg" alt="Logo"></img>
       <div className="header-right">
         <div>
-          <h4>Über uns</h4>
-          <h4>Kontact</h4>
-          <h4>Favoriten</h4>
+          {rightMenuUp.map((itemMenu) => (
+            <h4 key={itemMenu} onClick={() => onWindowChange(itemMenu)}>
+              {itemMenu.charAt(0).toUpperCase() + itemMenu.slice(1)}
+            </h4>
+          ))}
         </div>
+
         <div>
-          <h4>Korb</h4>
-          <h4>Registrieren</h4>
-          <h4>Anmelden</h4>
+          {rightMenuDown.map((itemMenu) => (
+            <h4 key={itemMenu} onClick={() => onWindowChange(itemMenu)}>
+              {itemMenu.charAt(0).toUpperCase() + itemMenu.slice(1)}
+            </h4>
+          ))}
         </div>
       </div>
     </div>

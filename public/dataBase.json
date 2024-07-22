@@ -4,279 +4,319 @@
     "name": "Blumenstraus 1",
     "prise": 18.15,
     "photo": "blumen-bilder/blumenstrauss/blumenstrauss_1.jpg",
-    "category": "blumenstrauss"
+    "category": "blumenstrauss",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 2,
     "name": "Blumenstraus 2",
     "prise": 13.75,
     "photo": "blumen-bilder/blumenstrauss/blumenstrauss_2.jpg",
-    "category": "blumenstrauss"
+    "category": "blumenstrauss",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 3,
     "name": "Blumenstraus 3",
     "prise": 22.3,
     "photo": "blumen-bilder/blumenstrauss/blumenstrauss_3.jpg",
-    "category": "blumenstrauss"
+    "category": "blumenstrauss",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 4,
     "name": "Blumenstraus 4",
     "prise": 15.25,
     "photo": "blumen-bilder/blumenstrauss/blumenstrauss_4.jpg",
-    "category": "blumenstrauss"
+    "category": "blumenstrauss",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 5,
     "name": "Blumenstraus 5",
     "prise": 22.85,
     "photo": "blumen-bilder/blumenstrauss/blumenstrauss_5.jpg",
-    "category": "blumenstrauss"
+    "category": "blumenstrauss",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 6,
     "name": "Blumenstraus 6",
     "prise": 14.75,
     "photo": "blumen-bilder/blumenstrauss/blumenstrauss_6.jpg",
-    "category": "blumenstrauss"
+    "category": "blumenstrauss",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 7,
     "name": "Blumenstraus 7",
     "prise": 19.0,
     "photo": "blumen-bilder/blumenstrauss/blumenstrauss_7.jpg",
-    "category": "blumenstrauss"
+    "category": "blumenstrauss",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 8,
     "name": "Blumenstraus 8",
     "prise": 26.5,
     "photo": "blumen-bilder/blumenstrauss/blumenstrauss_8.jpg",
-    "category": "blumenstrauss"
+    "category": "blumenstrauss",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 9,
     "name": "Blumenstraus 9",
     "prise": 30.2,
     "photo": "blumen-bilder/blumenstrauss/blumenstrauss_9.jpg",
-    "category": "blumenstrauss"
+    "category": "blumenstrauss",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 10,
     "name": "Blumenstraus 10",
     "prise": 18.5,
     "photo": "blumen-bilder/blumenstrauss/blumenstrauss_10.jpg",
-    "category": "blumenstrauss"
+    "category": "blumenstrauss",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 11,
     "name": "Vase 1",
     "prise": 40.5,
     "photo": "blumen-bilder/vase/vase_1.jpg",
-    "category": "vase"
+    "category": "vase",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 12,
     "name": "Vase 2",
     "prise": 40.5,
     "photo": "blumen-bilder/vase/vase_2.jpg",
-    "category": "vase"
+    "category": "vase",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 13,
     "name": "Vase 3",
     "prise": 38.2,
     "photo": "blumen-bilder/vase/vase_3.jpg",
-    "category": "vase"
+    "category": "vase",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 14,
     "name": "Vase 4",
     "prise": 50.0,
     "photo": "blumen-bilder/vase/vase_4.jpg",
-    "category": "vase"
+    "category": "vase",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 15,
     "name": "Vase 5",
     "prise": 34.4,
     "photo": "blumen-bilder/vase/vase_5.jpg",
-    "category": "vase"
+    "category": "vase",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 16,
     "name": "Vase 6",
     "prise": 42.8,
     "photo": "blumen-bilder/vase/vase_6.jpg",
-    "category": "vase"
+    "category": "vase",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 17,
     "name": "Vase 7",
     "prise": 29.2,
     "photo": "blumen-bilder/vase/vase_7.jpg",
-    "category": "vase"
+    "category": "vase",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 18,
     "name": "Vase 8",
     "prise": 36.15,
     "photo": "blumen-bilder/vase/vase_8.jpg",
-    "category": "vase"
+    "category": "vase",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 19,
     "name": "Vase 9",
     "prise": 45.3,
     "photo": "blumen-bilder/vase/vase_9.jpg",
-    "category": "vase"
+    "category": "vase",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 20,
     "name": "Vase 10",
     "prise": 39.0,
     "photo": "blumen-bilder/vase/vase_10.jpg",
-    "category": "vase"
+    "category": "vase",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 21,
     "name": "Tulpe 1",
     "prise": 3.5,
     "photo": "blumen-bilder/tulpe/tulpe_1.jpg",
-    "category": "tulpe"
+    "category": "tulpe",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 22,
     "name": "Tulpe 2",
     "prise": 3.0,
     "photo": "blumen-bilder/tulpe/tulpe_2.jpg",
-    "category": "tulpe"
+    "category": "tulpe",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 23,
     "name": "Tulpe 3",
     "prise": 2.8,
     "photo": "blumen-bilder/tulpe/tulpe_3.jpg",
-    "category": "tulpe"
+    "category": "tulpe",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 24,
     "name": "Tulpe 4",
     "prise": 3.2,
     "photo": "blumen-bilder/tulpe/tulpe_4.jpg",
-    "category": "tulpe"
+    "category": "tulpe",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 25,
     "name": "Tulpe 5",
     "prise": 3.1,
     "photo": "blumen-bilder/tulpe/tulpe_5.jpg",
-    "category": "tulpe"
+    "category": "tulpe",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 26,
     "name": "Tulpe 6",
     "prise": 3.3,
     "photo": "blumen-bilder/tulpe/tulpe_6.jpg",
-    "category": "tulpe"
+    "category": "tulpe",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 27,
     "name": "Tulpe 7",
     "prise": 2.6,
     "photo": "blumen-bilder/tulpe/tulpe_7.jpg",
-    "category": "tulpe"
+    "category": "tulpe",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 28,
     "name": "Tulpe 8",
     "prise": 3.0,
     "photo": "blumen-bilder/tulpe/tulpe_8.jpg",
-    "category": "tulpe"
+    "category": "tulpe",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 29,
     "name": "Tulpe 9",
     "prise": 3.15,
     "photo": "blumen-bilder/tulpe/tulpe_9.jpg",
-    "category": "tulpe"
+    "category": "tulpe",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 30,
     "name": "Tulpe 10",
     "prise": 2.3,
     "photo": "blumen-bilder/tulpe/tulpe_10.jpg",
-    "category": "tulpe"
+    "category": "tulpe",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 31,
     "name": "Blumentopf 1",
     "prise": 25,
     "photo": "blumen-bilder/blumentopf/blumentopf_1.jpg",
-    "category": "blumentopf"
+    "category": "blumentopf",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 32,
     "name": "Blumentopf 2",
     "prise": 28,
     "photo": "blumen-bilder/blumentopf/blumentopf_2.jpg",
-    "category": "blumentopf"
+    "category": "blumentopf",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 33,
     "name": "Blumentopf 3",
     "prise": 31,
     "photo": "blumen-bilder/blumentopf/blumentopf_3.jpg",
-    "category": "blumentopf"
+    "category": "blumentopf",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 34,
     "name": "Blumentopf 4",
     "prise": 43,
     "photo": "blumen-bilder/blumentopf/blumentopf_4.jpg",
-    "category": "blumentopf"
+    "category": "blumentopf",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 35,
     "name": "Blumentopf 5",
     "prise": 37,
     "photo": "blumen-bilder/blumentopf/blumentopf_5.jpg",
-    "category": "blumentopf"
+    "category": "blumentopf",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 36,
     "name": "Blumentopf 6",
     "prise": 27,
     "photo": "blumen-bilder/blumentopf/blumentopf_6.jpg",
-    "category": "blumentopf"
+    "category": "blumentopf",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 37,
     "name": "Blumentopf 7",
     "prise": 33,
     "photo": "blumen-bilder/blumentopf/blumentopf_7.jpg",
-    "category": "blumentopf"
+    "category": "blumentopf",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 38,
     "name": "Blumentopf 8",
     "prise": 29,
     "photo": "blumen-bilder/blumentopf/blumentopf_8.jpg",
-    "category": "blumentopf"
+    "category": "blumentopf",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 39,
     "name": "Blumentopf 9",
     "prise": 21,
     "photo": "blumen-bilder/blumentopf/blumentopf_9.jpg",
-    "category": "blumentopf"
+    "category": "blumentopf",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   },
   {
     "id": 40,
     "name": "Blumentopf 10",
     "prise": 29,
     "photo": "blumen-bilder/blumentopf/blumentopf_10.jpg",
-    "category": "blumentopf"
+    "category": "blumentopf",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
   }
 ]

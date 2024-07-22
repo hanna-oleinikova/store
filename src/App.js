@@ -2,10 +2,17 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Header from './components/header/header'
 import Waren from './components/waren/waren'
+import About from './components/about/about'
+import Contact from './components/contact/contact'
+import Liked from './components/liked/liked'
+import Anmelden from './components/anmelden/anmelden'
+import Registr from './components/registr/registr'
+import Korb from './components/korb/korb'
 
 function App() {
   const [products, setProducts] = useState([])
   const [category, setCategory] = useState('alle')
+  const [rightMenuItem, setRightMenuItem] = useState(null)
 
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -43,12 +50,24 @@ function App() {
   const filteredProducts =
     category === 'alle' ? products : filterByCategory(products, category)
 
+  const handleMenuItemChange = (window) => {
+    setRightMenuItem((prevWindow) => (prevWindow === window ? null : window))
+  }
+
   return (
     <div className="App">
       <Header
         selectedCategory={category}
         onCategoryChange={handleCategoryChange}
+        onWindowChange={handleMenuItemChange}
       />
+
+      {rightMenuItem === 'über uns' && <About />}
+      {rightMenuItem === 'kontakt' && <Contact />}
+      {rightMenuItem === 'favoriten' && <Liked />}
+      {rightMenuItem === 'anmelden' && <Anmelden />}
+      {rightMenuItem === 'registrieren' && <Registr />}
+      {rightMenuItem === 'korb' && <Korb />}
       <Waren products={filteredProducts} />
     </div>
   )
