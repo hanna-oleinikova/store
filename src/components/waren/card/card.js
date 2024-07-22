@@ -3,9 +3,17 @@ import './card.css'
 
 const Card = ({ products }) => {
   const [largePhoto, setLargePhoto] = useState(null)
+  const [descriptionStates, setDescriptionStates] = useState({})
 
   const handlePhotoClick = (photoSrc) => {
     setLargePhoto(photoSrc)
+  }
+
+  const toggleDescription = (productId) => {
+    setDescriptionStates((prevState) => ({
+      ...prevState,
+      [productId]: !prevState[productId],
+    }))
   }
 
   return (
@@ -15,15 +23,25 @@ const Card = ({ products }) => {
       ) : (
         products.map((product) => (
           <div key={product.id} className="card">
-            <img
-              src={product.photo}
-              alt="warebild"
-              onClick={() => handlePhotoClick(product.photo)}
-              style={{ cursor: 'pointer' }}
-            />
+            {!descriptionStates[product.id] ? (
+              <img
+                src={product.photo}
+                alt="warebild"
+                onClick={() => handlePhotoClick(product.photo)}
+                style={{ cursor: 'pointer' }}
+              />
+            ) : (
+              <div className="description-container">
+                <span className="description">{product.description}</span>
+              </div>
+            )}
+
             <div className="bild-info">
               <p className="title-info">{product.name}</p>
               <p className="prise-info">Preis: {product.prise} Euro</p>
+              <button onClick={() => toggleDescription(product.id)}>
+                Beschreibung
+              </button>
             </div>
           </div>
         ))

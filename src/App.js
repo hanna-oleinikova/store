@@ -60,6 +60,7 @@ function App() {
         selectedCategory={category}
         onCategoryChange={handleCategoryChange}
         onWindowChange={handleMenuItemChange}
+        rightMenuItem={rightMenuItem}
       />
 
       {rightMenuItem === 'über uns' && <About />}
