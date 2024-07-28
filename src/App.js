@@ -69,6 +69,7 @@ function App() {
       {rightMenuItem === 'anmelden' && <Anmelden />}
       {rightMenuItem === 'registrieren' && <Registr />}
       {rightMenuItem === 'korb' && <Korb />}
+
       <Waren products={filteredProducts} />
     </div>
   )

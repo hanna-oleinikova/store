@@ -1,5 +1,7 @@
+import './korb.css'
+
 const Korb = () => {
-  return <div>korb</div>
+  return <div className="korb-container">korb</div>
 }
 
 export default Korb

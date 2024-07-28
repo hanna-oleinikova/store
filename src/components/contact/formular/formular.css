@@ -1,0 +1,48 @@
+.formular-container {
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  width: 70%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 7px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.button-submit {
+  background-color: hsl(0, 0%, 50%);
+  cursor: pointer;
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 15px auto;
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .formular-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .formular-container {
+    width: 100%;
+
+    .formular-title {
+      font-size: 18px;
+    }
+  }
+}

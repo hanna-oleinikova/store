@@ -1,5 +1,7 @@
+import './liked.css'
+
 const Liked = () => {
-  return <div>liked</div>
+  return <div className="liked-container">liked</div>
 }
 
 export default Liked

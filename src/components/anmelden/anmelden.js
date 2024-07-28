@@ -1,7 +1,7 @@
-import React from 'react'
+import './anmelden.css'
 
 const Anmelden = () => {
-  return <div>anmelden</div>
+  return <div className="anmelden-container">anmelden</div>
 }
 
 export default Anmelden

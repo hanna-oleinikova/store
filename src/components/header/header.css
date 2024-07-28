@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .header-left,
@@ -35,5 +35,5 @@ h4.selected {
 }
 
 img {
-  width: 70px;
+  width: 100px;
 }
