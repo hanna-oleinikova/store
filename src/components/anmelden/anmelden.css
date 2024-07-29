@@ -5,3 +5,25 @@
   margin: 0 auto;
   padding: 50px;
 }
+
+.anmelden-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.anmelden-form input {
+  width: 100%;
+  padding: 7px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.anmelden-container p {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.anmelden-container p span {
+  cursor: pointer;
+  font-weight: 600;
+}

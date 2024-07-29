@@ -66,7 +66,9 @@ function App() {
       {rightMenuItem === 'über uns' && <About />}
       {rightMenuItem === 'kontakt' && <Contact />}
       {rightMenuItem === 'favoriten' && <Liked />}
-      {rightMenuItem === 'anmelden' && <Anmelden />}
+      {rightMenuItem === 'anmelden' && (
+        <Anmelden onWindowChange={handleMenuItemChange} />
+      )}
       {rightMenuItem === 'registrieren' && <Registr />}
       {rightMenuItem === 'korb' && <Korb />}
 

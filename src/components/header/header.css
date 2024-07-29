@@ -34,6 +34,6 @@ h4.selected {
   color: black;
 }
 
-img {
-  width: 100px;
+.header-logo {
+  max-width: 100px;
 }

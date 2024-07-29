@@ -5,3 +5,26 @@
   margin: 0 auto;
   padding: 50px;
 }
+
+.form-group button {
+  background-color: hsl(0, 0%, 50%);
+  cursor: pointer;
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 15px auto;
+}
+
+.registr-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registr-form input {
+  width: 100%;
+  padding: 7px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}

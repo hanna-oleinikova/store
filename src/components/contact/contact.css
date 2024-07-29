@@ -20,17 +20,17 @@ h2 {
   width: 45%;
 }
 
-h3 {
+.column h3 {
   margin-top: 25px;
   margin-bottom: 10px;
 }
 
-p {
+.column p {
   color: hsl(0, 0%, 30%);
   line-height: 25px;
 }
 
-span {
+.column p span {
   font-weight: 600;
 }
 

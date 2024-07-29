@@ -24,7 +24,7 @@ const Header = ({
         ))}
       </div>
 
-      <img src="logo.jpg" alt="Logo"></img>
+      <img src="logo.jpg" alt="Logo" className="header-logo"></img>
 
       <div className="header-right">
         <div>
