@@ -7,7 +7,7 @@
   box-shadow: 10px 10px 20px 0px rgba(107, 107, 107, 0.5);
 }
 
-.card img {
+.small-image-container img {
   width: 200px;
   border-radius: 10px 10px 0 0;
 }
@@ -36,7 +36,7 @@
   min-height: 200px;
   padding: 15px;
   border-radius: 10px 10px 0 0;
-  background-color: hsl(0, 0%, 70%);
+  background-color: hsl(0, 0%, 90%);
 }
 
 .description {
@@ -46,13 +46,13 @@
   font-weight: normal;
 }
 
-.image-container {
+.large-image-container {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,4 +72,47 @@
   color: white;
   border: none;
   border-radius: 5px;
+}
+
+.close-button {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.buttons-like-buy {
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.like-button,
+.shop-button {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.like-button {
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: rgb(255, 167, 167);
+}
+
+.like-button-selected {
+  color: rgb(255, 72, 72);
+}
+
+.shop-button {
+  background-color: rgb(172, 185, 255);
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.shop-button-selected {
+  color: rgb(90, 114, 253);
 }

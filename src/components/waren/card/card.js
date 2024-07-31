@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './card.css'
+import { FaHeart, FaCartShopping, FaXmark } from 'react-icons/fa6'
 
 const Card = ({ products }) => {
   const [largePhoto, setLargePhoto] = useState(null)
@@ -24,12 +25,14 @@ const Card = ({ products }) => {
         products.map((product) => (
           <div key={product.id} className="card">
             {!descriptionStates[product.id] ? (
-              <img
-                src={product.photo}
-                alt="warebild"
-                onClick={() => handlePhotoClick(product.photo)}
-                style={{ cursor: 'pointer' }}
-              />
+              <div className="small-image-container">
+                <img
+                  src={product.photo}
+                  alt="warebild"
+                  onClick={() => handlePhotoClick(product.photo)}
+                  style={{ cursor: 'pointer' }}
+                />
+              </div>
             ) : (
               <div className="description-container">
                 <span className="description">{product.description}</span>
@@ -37,6 +40,10 @@ const Card = ({ products }) => {
             )}
 
             <div className="bild-info">
+              <div className="buttons-like-buy">
+                <FaHeart className="like-button" />
+                <FaCartShopping className="shop-button" />
+              </div>
               <p className="title-info">{product.name}</p>
               <p className="prise-info">Preis: {product.prise} Euro</p>
               <button onClick={() => toggleDescription(product.id)}>
@@ -47,7 +54,11 @@ const Card = ({ products }) => {
         ))
       )}
       {largePhoto && (
-        <div className="image-container">
+        <div className="large-image-container">
+          <FaXmark
+            className="close-button"
+            onClick={() => setLargePhoto(null)}
+          />
           <img
             className="large-image"
             src={largePhoto}

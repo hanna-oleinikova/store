@@ -1,3 +1,4 @@
+// import { useState } from 'react'
 import './header.css'
 
 const Header = ({
@@ -9,6 +10,7 @@ const Header = ({
   const categories = ['alle', 'blumenstrauss', 'vase', 'blumentopf', 'tulpe']
   const rightMenuUp = ['über uns', 'kontakt', 'favoriten']
   const rightMenuDown = ['korb', 'registrieren', 'anmelden']
+  // const [colorLogo, setColorLogo] = useState('white')
 
   return (
     <div className="header-container">
@@ -24,7 +26,7 @@ const Header = ({
         ))}
       </div>
 
-      <img src="logo.jpg" alt="Logo" className="header-logo"></img>
+      <img src="./logo/logo-white.svg" alt="Logo" className="header-logo"></img>
 
       <div className="header-right">
         <div>

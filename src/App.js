@@ -13,6 +13,7 @@ function App() {
   const [products, setProducts] = useState([])
   const [category, setCategory] = useState('alle')
   const [rightMenuItem, setRightMenuItem] = useState(null)
+  const [sortedWaren, setSortedWaren] = useState([])
 
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -35,23 +36,42 @@ function App() {
         const shuffledProducts = shuffleArray(data)
         console.log('Data fetched successfully:', shuffledProducts)
         setProducts(shuffledProducts)
+        setSortedWaren(shuffledProducts)
       })
       .catch((error) => console.error('Error fetching:', error))
   }, [])
 
   const handleCategoryChange = (newCategory) => {
     setCategory(newCategory)
+    const filteredProducts =
+      newCategory === 'alle'
+        ? products
+        : filterByCategory(products, newCategory)
+    setSortedWaren(filteredProducts)
   }
 
   const filterByCategory = (products, category) => {
     return products.filter((product) => product.category === category)
   }
 
-  const filteredProducts =
-    category === 'alle' ? products : filterByCategory(products, category)
-
   const handleMenuItemChange = (window) => {
     setRightMenuItem((prevWindow) => (prevWindow === window ? null : window))
+  }
+
+  const handleSortWaren = (method) => {
+    const sortedProducts = [...sortedWaren].sort((a, b) => {
+      if (method === 'nameAsc') {
+        return a.name.localeCompare(b.name)
+      } else if (method === 'nameDesc') {
+        return b.name.localeCompare(a.name)
+      } else if (method === 'priceAsc') {
+        return a.prise - b.prise
+      } else if (method === 'priceDesc') {
+        return b.prise - a.prise
+      }
+      return 0
+    })
+    setSortedWaren(sortedProducts)
   }
 
   return (
@@ -72,7 +92,7 @@ function App() {
       {rightMenuItem === 'registrieren' && <Registr />}
       {rightMenuItem === 'korb' && <Korb />}
 
-      <Waren products={filteredProducts} />
+      <Waren products={sortedWaren} onSortWaren={handleSortWaren} />
     </div>
   )
 }
