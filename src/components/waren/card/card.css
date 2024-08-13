@@ -91,7 +91,7 @@
 
 .like-button,
 .shop-button {
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
 }
 
@@ -99,15 +99,17 @@
   color: white;
   border-radius: 50%;
   padding: 5px;
-  background-color: rgb(255, 167, 167);
+  background-color: hsl(0, 0%, 50%);
 }
 
-.like-button-selected {
-  color: rgb(255, 72, 72);
+.like-button.liked {
+  color: red;
+  background-color: rgb(255, 197, 197);
+  font-size: 25px;
 }
 
 .shop-button {
-  background-color: rgb(172, 185, 255);
+  background-color: hsl(0, 0%, 50%);
   color: white;
   border-radius: 50%;
   padding: 5px;

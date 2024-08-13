@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './card.css'
 import { FaHeart, FaCartShopping, FaXmark } from 'react-icons/fa6'
 
-const Card = ({ products }) => {
+const Card = ({ products, onLikeProduct, likedProducts }) => {
   const [largePhoto, setLargePhoto] = useState(null)
   const [descriptionStates, setDescriptionStates] = useState({})
 
@@ -17,10 +17,14 @@ const Card = ({ products }) => {
     }))
   }
 
+  const isProductLiked = (productId) => {
+    return likedProducts.some((product) => product.id === productId)
+  }
+
   return (
     <>
       {products.length === 0 ? (
-        <p>No products available</p>
+        <p>Hier ist noch nichts</p>
       ) : (
         products.map((product) => (
           <div key={product.id} className="card">
@@ -41,7 +45,13 @@ const Card = ({ products }) => {
 
             <div className="bild-info">
               <div className="buttons-like-buy">
-                <FaHeart className="like-button" />
+                <FaHeart
+                  className={`like-button ${
+                    isProductLiked(product.id) ? 'liked' : ''
+                  }`}
+                  onClick={() => onLikeProduct(product)}
+                  style={{ cursor: 'pointer' }}
+                />
                 <FaCartShopping className="shop-button" />
               </div>
               <p className="title-info">{product.name}</p>

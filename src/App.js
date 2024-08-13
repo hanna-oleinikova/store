@@ -14,6 +14,7 @@ function App() {
   const [category, setCategory] = useState('alle')
   const [rightMenuItem, setRightMenuItem] = useState(null)
   const [sortedWaren, setSortedWaren] = useState([])
+  const [likedProducts, setLikedProducts] = useState([])
 
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -74,6 +75,16 @@ function App() {
     setSortedWaren(sortedProducts)
   }
 
+  const handleLikeProduct = (product) => {
+    setLikedProducts((prevLikedProducts) => {
+      if (prevLikedProducts.some((p) => p.id === product.id)) {
+        return prevLikedProducts.filter((p) => p.id !== product.id)
+      } else {
+        return [...prevLikedProducts, product]
+      }
+    })
+  }
+
   return (
     <div className="App">
       <Header
@@ -85,14 +96,19 @@ function App() {
 
       {rightMenuItem === 'über uns' && <About />}
       {rightMenuItem === 'kontakt' && <Contact />}
-      {rightMenuItem === 'favoriten' && <Liked />}
+      {rightMenuItem === 'favoriten' && <Liked likedProducts={likedProducts} />}
       {rightMenuItem === 'anmelden' && (
         <Anmelden onWindowChange={handleMenuItemChange} />
       )}
       {rightMenuItem === 'registrieren' && <Registr />}
       {rightMenuItem === 'korb' && <Korb />}
 
-      <Waren products={sortedWaren} onSortWaren={handleSortWaren} />
+      <Waren
+        products={sortedWaren}
+        onSortWaren={handleSortWaren}
+        onLikeProduct={handleLikeProduct}
+        likedProducts={likedProducts}
+      />
     </div>
   )
 }

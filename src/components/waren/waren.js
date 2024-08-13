@@ -3,11 +3,11 @@ import Card from './card/card'
 
 import './waren.css'
 
-const Waren = ({ products, onSortWaren }) => {
+const Waren = ({ products, onSortWaren, onLikeProduct, likedProducts }) => {
   return (
     <div className="waren-container">
       <div className="sorted-buttons">
-        <p>Sortieren nach...</p>
+        <p>Sortieren...</p>
         <ButtonSort
           title="Preis absteigend"
           onClick={() => onSortWaren('priceDesc')}
@@ -19,7 +19,11 @@ const Waren = ({ products, onSortWaren }) => {
         <ButtonSort title="ABC" onClick={() => onSortWaren('nameAsc')} />
         <ButtonSort title="ZYX" onClick={() => onSortWaren('nameDesc')} />
       </div>
-      <Card products={products} />
+      <Card
+        products={products}
+        onLikeProduct={onLikeProduct}
+        likedProducts={likedProducts}
+      />
     </div>
   )
 }
